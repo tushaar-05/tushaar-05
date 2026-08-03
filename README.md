@@ -74,10 +74,10 @@
 ## Connect With Me  
 
 <p align="left">
-  <a href="https://linkedin.com/in/tushaar_05" target="_blank">
+  <a href="https://linkedin.com/in/tushar-singh05/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-  <a href="https://github.com/tushaar-05" target="_blank">
+  <a href="mailto:tusharsingh222555@gmail.com" target="_blank">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
   <a href="https://leetcode.com/u/tushaar_05/" target="_blank">
