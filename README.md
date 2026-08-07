@@ -58,7 +58,7 @@
 
 ## Contribution Graph
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tushaar-05&bg_color=000000&color=e0e0e0&line=6e6e6e&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tushaar-05&bg_color=0C1117&color=e0e0e0&line=6e6e6e&point=ffffff&area=true&area_color=eee&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
 ---
@@ -66,7 +66,7 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-8lew.vercel.app/api?username=tushaar-05&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" />
+  <img src="https://github-readme-stats-8lew.vercel.app/api?username=tushaar-05&show_icons=true&bg_color=0C1117&title_color=ffffff&text_color=e0e0e0&icon_color=ffffff&border_color=0C1117&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" />
 </p>
 
 ---
@@ -103,3 +103,7 @@
     width="100%"
   />
 </p>
+
+
+
+
