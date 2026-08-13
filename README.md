@@ -63,6 +63,16 @@
 
 ---
 
+## GitHub Streak
+
+<p align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=tushaar-05&theme=dark&hide_border=true&background=0C1117&stroke=0C1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=E0E0E0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=808080"
+    alt="GitHub Streak"
+  />
+</p>
+---
+
 ## GitHub Stats
 
 <p align="center">
