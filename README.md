@@ -73,6 +73,8 @@
 
 ## Connect With Me  
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Portfolio-gray?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tusharworks.vercel.app/)
+
 <p align="left">
   <a href="https://linkedin.com/in/tushar-singh05/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" />
@@ -88,6 +90,8 @@
   </a>
 </p>
 
+Mail: tusharsingh222555@gmail.com
+
 ---
 
 ## Profile Views  
@@ -98,8 +102,12 @@
 
 
 <p align="center">
-  <img
+  <!-- <img
     src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5ldGdybnE5bWRjcTA1eDZqdmM4OWV0MTBudmJrMHJlN2lheXQ4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4NTYWnwi2K6V3UpMNE/giphy.gif"
+    width="100%"
+  /> -->
+  <img
+    src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGk1c3Y1NnFjaTlhMnc3cWdremZzNXZ2enR0ajY2dXE4aDZkb2d5aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vk8OCsBmhAZ5CG09vU/giphy.gif"
     width="100%"
   />
 </p>
