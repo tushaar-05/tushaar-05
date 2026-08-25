@@ -38,12 +38,12 @@
 
 ### Backend & Databases
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres" />
 </p>
 
 ### DevOps, Cloud & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,figma,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=docker,aws,figma,git,github,vscode" />
 </p>
 
 ---
@@ -51,7 +51,7 @@
 ## Currently Learning
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,go,nextjs,redux,django,postgres,redis,supabase,firebase,azure,nginx,linux,prisma" />
+  <img src="https://skillicons.dev/icons?i=nextjs,redux,supabase,firebase,nginx,linux,prisma" />
 </p>
 
 ---
