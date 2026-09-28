@@ -58,7 +58,11 @@
 
 ## Contribution Graph
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tushaar-05&bg_color=0C1117&color=e0e0e0&line=6e6e6e&point=ffffff&area=true&area_color=eee&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<!-- [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tushaar-05&bg_color=0C1117&color=e0e0e0&line=6e6e6e&point=ffffff&area=true&area_color=eee&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) -->
+
+<p align = "center">
+  <img src="./assets/activity-graph.svg"/>
+</p>
 
 
 ---
