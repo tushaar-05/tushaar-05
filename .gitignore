@@ -1,0 +1,22 @@
+# Environment variables & secrets
+.env
+.env.*
+*.env
+scripts/.env
+!.env.example
+!*.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# OS metadata
+.DS_Store
+Thumbs.db

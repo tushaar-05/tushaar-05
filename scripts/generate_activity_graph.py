@@ -1,10 +1,58 @@
 import os
+import sys
 import urllib.request
 import json
 from xml.sax.saxutils import escape
 
+# --------------------------------------------------
+# Environment Variable Loading (.env support)
+# --------------------------------------------------
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+
+def _load_env_file(filepath):
+    """Load key-value pairs from a .env file into os.environ if not already set."""
+    if not os.path.isfile(filepath):
+        return False
+    loaded_any = False
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, val = line.split("=", 1)
+                key = key.strip()
+                val = val.strip().strip("\"'")
+                if key and key not in os.environ:
+                    os.environ[key] = val
+                    loaded_any = True
+    except Exception:
+        pass
+    return loaded_any
+
+# Try python-dotenv first if available
+try:
+    from dotenv import load_dotenv
+    load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
+    load_dotenv(os.path.join(PROJECT_ROOT, ".env"))
+    load_dotenv()
+except ImportError:
+    pass
+
+# Fallback parser so it works without requiring external packages
+_load_env_file(os.path.join(SCRIPT_DIR, ".env"))
+_load_env_file(os.path.join(PROJECT_ROOT, ".env"))
+_load_env_file(os.path.join(os.getcwd(), ".env"))
+
 USERNAME = os.environ.get("GITHUB_USERNAME", "tushaar-05")
-TOKEN = os.environ["GITHUB_TOKEN"]
+TOKEN = os.environ.get("GITHUB_TOKEN")
+
+if not TOKEN:
+    print("\n❌ Error: GITHUB_TOKEN environment variable is not set!", file=sys.stderr)
+    print("Please ensure GITHUB_TOKEN is defined in .env or scripts/.env", file=sys.stderr)
+    print(f"Looked in:\n  - {os.path.join(PROJECT_ROOT, '.env')}\n  - {os.path.join(SCRIPT_DIR, '.env')}\n", file=sys.stderr)
+    sys.exit(1)
 
 API_URL = "https://api.github.com/graphql"
 
@@ -421,10 +469,12 @@ for i in label_indices:
 
 svg.append("</svg>")
 
-os.makedirs("assets", exist_ok=True)
+output_dir = os.path.join(PROJECT_ROOT, "assets")
+os.makedirs(output_dir, exist_ok=True)
+output_path = os.path.join(output_dir, "activity-graph.svg")
 
 with open(
-    "assets/activity-graph.svg",
+    output_path,
     "w",
     encoding="utf-8"
 ) as file:
@@ -440,4 +490,8 @@ print(
 
 print(
     f"Maximum daily contributions: {max(counts) if counts else 0}"
+)
+
+print(
+    f"Saved to {output_path}"
 )
