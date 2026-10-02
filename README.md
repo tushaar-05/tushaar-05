@@ -13,8 +13,9 @@
   FullStack Developer | Open Source Contributor | Sophomore
 </h3>
 
----
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tushaar-05&label=Profile%20Views&color=0C1117&style=for-the-badge" alt="Profile Views" />
+</p>
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=55&duration=4000&pause=600&color=F9F9F9&center=true&vCenter=true&width=435&lines=Go+beyond!+Plus+Ultra!;Hard+work+beats+talent." alt="Typing SVG" /></a>
@@ -22,14 +23,27 @@
 
 ---
 
-## About Me  
-- A **full stack developer** who loves building clean, modern websites and apps where design, functionality, and even the smallest details matter, with a focus on making products that are both practical and visually satisfying.
-- I'm currently exploring AI-powered applications, scalable backend systems, and modern web technologies.
-- Currently a 2nd year B.Tech student and I also enjoy contributing to open-source projects.
+## 📌 About Me  
+- 💻 A **full stack developer** who loves building clean, modern websites and apps where design, functionality, and even the smallest details matter.
+- 🚀 Exploring AI-powered applications, scalable backend systems, and modern web architectures.
+- 🎓 2nd year B.Tech student actively contributing to open-source communities.
 
 ---
 
-## Tech Stack
+## 🚀 Featured Projects
+
+| Project | Description | Tech Stack | Links |
+| :--- | :--- | :--- | :--- |
+| **Preper** | Full-stack exam and interview preparation platform featuring authentication, payments & mock assessments | `Python` `Flask` `SQLAlchemy` `MySQL` | [Live Demo](https://preper.co.in) • [GitHub](https://github.com/tushaar-05/Preper) |
+| **Tekron NST '26** | Official platform for annual flagship tech fest Tekron NST with event schedules and registrations | `React` `JavaScript` `Tailwind` | [Live Demo](https://tekronfest.com/) • [GitHub](https://github.com/tushaar-05/tekron_NST26) |
+| **Significo** | Modern web experience featuring fluid layouts, creative UI transitions, and smooth scroll animations | `Tailwind` `GSAP` `JavaScript` `HTML5` | [Live Demo](https://siignifico.netlify.app/) • [GitHub](https://github.com/tushaar-05/Significo) |
+| **NST-SDC** | Student Development Cell (SDC) web portal for community activities, initiatives, and resources | `React` `Vite` `JavaScript` `Tailwind` | [Live Demo](https://nst-sdc-coral.vercel.app) • [GitHub](https://github.com/tushaar-05/nst-sdc) |
+| **Miles4Smiles** | Non-profit initiative web platform for social impact, charity events, and volunteer coordination | `TypeScript` `React` `Next.js` | [Live Demo](https://milesforsmiles-flame.vercel.app) • [GitHub](https://github.com/tushaar-05/Miles4Smiles) |
+| **Smart Classroom Management** | Role-based system for managing classroom attendance, grading, equipment bookings & analytics | `Python` `SQLite` `CLI` | [GitHub](https://github.com/tushaar-05/Smart-Classroom-Management) |
+
+---
+
+## 🛠️ Tech Stack
 
 ### Languages & Frontend
 <p>
@@ -48,7 +62,7 @@
 
 ---
 
-## Currently Learning
+## 📚 Currently Learning
 
 <p>
   <img src="https://skillicons.dev/icons?i=nextjs,redux,supabase,firebase,nginx,linux,prisma" />
@@ -56,81 +70,48 @@
 
 ---
 
-## Contribution Graph
-
-<!-- [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tushaar-05&bg_color=0C1117&color=e0e0e0&line=6e6e6e&point=ffffff&area=true&area_color=eee&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) -->
-
-<p align = "center">
-  <img src="./assets/activity-graph.svg"/>
-</p>
-
-
----
-
-## GitHub Streak
-
-<!-- <p align="center">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=tushaar-05&theme=dark&hide_border=true&background=0C1117&stroke=0C1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=E0E0E0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=808080"
-    alt="GitHub Streak"
-  />
-</p> -->
+## 📊 Contribution Graph
 
 <p align="center">
-  <img src="./assets/streak-stats.svg" alt="GitHub Streak" />
+  <img src="./assets/activity-graph.svg" alt="Contribution Graph" />
 </p>
+
 ---
 
-
-## GitHub Stats
+## ⚡ GitHub Stats & Streak
 
 <p align="center">
-  <img src="https://github-readme-stats-8lew.vercel.app/api?username=tushaar-05&show_icons=true&bg_color=0C1117&title_color=ffffff&text_color=e0e0e0&icon_color=ffffff&border_color=0C1117&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" />
+  <img src="./assets/streak-stats.svg" alt="GitHub Streak" width="49%" />
+  <img src="https://github-readme-stats-8lew.vercel.app/api?username=tushaar-05&show_icons=true&bg_color=0C1117&title_color=ffffff&text_color=e0e0e0&icon_color=ffffff&border_color=0C1117&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" width="49%" />
 </p>
 
 ---
 
-## Connect With Me  
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Portfolio-gray?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tusharworks.vercel.app/)
+## 🌐 Connect With Me  
 
 <p align="left">
-  <a href="https://linkedin.com/in/tushar-singh05/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
+  <a href="https://tusharworks.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0C1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="mailto:tusharsingh222555@gmail.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" />
+  <a href="https://linkedin.com/in/tushar-singh05/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/tushaar_05/" target="_blank">
-    <img src="https://cdn.simpleicons.org/leetcode" alt="LeetCode" width="48" height="48" />
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  <a href="mailto:tusharsingh222555@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://instagram.com/tushaar._.05" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
-
-Mail: tusharsingh222555@gmail.com
 
 ---
 
-## Profile Views  
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tushaar-05&label=Profile%20Views&color=grey&style=for-the-badge" />
-</p>
-
-
-<p align="center">
-  <!-- <img
-    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5ldGdybnE5bWRjcTA1eDZqdmM4OWV0MTBudmJrMHJlN2lheXQ4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4NTYWnwi2K6V3UpMNE/giphy.gif"
-    width="100%"
-  /> -->
   <img
     src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGk1c3Y1NnFjaTlhMnc3cWdremZzNXZ2enR0ajY2dXE4aDZkb2d5aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vk8OCsBmhAZ5CG09vU/giphy.gif"
     width="100%"
   />
 </p>
-
-
-
-
