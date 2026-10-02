@@ -13,9 +13,7 @@
   FullStack Developer | Open Source Contributor | Sophomore
 </h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tushaar-05&label=Profile%20Views&color=0C1117&style=for-the-badge" alt="Profile Views" />
-</p>
+
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&size=55&duration=4000&pause=600&color=F9F9F9&center=true&vCenter=true&width=435&lines=Go+beyond!+Plus+Ultra!;Hard+work+beats+talent." alt="Typing SVG" /></a>
@@ -37,8 +35,8 @@
 | **Preper** | Full-stack exam and interview preparation platform featuring authentication, payments & mock assessments | `Python` `Flask` `SQLAlchemy` `MySQL` | [Live Demo](https://preper.co.in) • [GitHub](https://github.com/tushaar-05/Preper) |
 | **Tekron NST '26** | Official platform for annual flagship tech fest Tekron NST with event schedules and registrations | `React` `JavaScript` `Tailwind` | [Live Demo](https://tekronfest.com/) • [GitHub](https://github.com/tushaar-05/tekron_NST26) |
 | **Significo** | Modern web experience featuring fluid layouts, creative UI transitions, and smooth scroll animations | `Tailwind` `GSAP` `JavaScript` `HTML5` | [Live Demo](https://siignifico.netlify.app/) • [GitHub](https://github.com/tushaar-05/Significo) |
-| **NST-SDC** | Student Development Cell (SDC) web portal for community activities, initiatives, and resources | `React` `Vite` `JavaScript` `Tailwind` | [Live Demo](https://nst-sdc-coral.vercel.app) • [GitHub](https://github.com/tushaar-05/nst-sdc) |
-| **Miles4Smiles** | Non-profit initiative web platform for social impact, charity events, and volunteer coordination | `TypeScript` `React` `Next.js` | [Live Demo](https://milesforsmiles-flame.vercel.app) • [GitHub](https://github.com/tushaar-05/Miles4Smiles) |
+| **NST-SDC** | Student Development Club (SDC) website for community activities, initiatives, and resources | `React` `Vite` `JavaScript` `Tailwind` | [Live Demo](https://nst-sdc-coral.vercel.app) • [GitHub](https://github.com/tushaar-05/nst-sdc) |
+| **Miles4Smiles** | Non-profit initiative web platform for social impact, charity 5k run event. | `TypeScript` `React` `Next.js` | [Live Demo](https://milesforsmiles-flame.vercel.app) • [GitHub](https://github.com/tushaar-05/Miles4Smiles) |
 | **Smart Classroom Management** | Role-based system for managing classroom attendance, grading, equipment bookings & analytics | `Python` `SQLite` `CLI` | [GitHub](https://github.com/tushaar-05/Smart-Classroom-Management) |
 
 ---
@@ -60,10 +58,8 @@
   <img src="https://skillicons.dev/icons?i=docker,aws,figma,git,github,vscode" />
 </p>
 
----
 
 ## 📚 Currently Learning
-
 <p>
   <img src="https://skillicons.dev/icons?i=nextjs,redux,supabase,firebase,nginx,linux,prisma" />
 </p>
@@ -83,6 +79,12 @@
 <p align="center">
   <img src="./assets/streak-stats.svg" alt="GitHub Streak" width="49%" />
   <img src="https://github-readme-stats-8lew.vercel.app/api?username=tushaar-05&show_icons=true&bg_color=0C1117&title_color=ffffff&text_color=e0e0e0&icon_color=ffffff&border_color=0C1117&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" width="49%" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tushaar-05&label=Profile%20Views&color=0C1117&style=for-the-badge" alt="Profile Views" />
 </p>
 
 ---
