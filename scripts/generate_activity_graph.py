@@ -1,5 +1,6 @@
 import os
 import sys
+import re
 import urllib.request
 import json
 from xml.sax.saxutils import escape
@@ -48,12 +49,6 @@ _load_env_file(os.path.join(os.getcwd(), ".env"))
 USERNAME = os.environ.get("GITHUB_USERNAME", "tushaar-05")
 TOKEN = os.environ.get("GITHUB_TOKEN")
 
-if not TOKEN:
-    print("\n❌ Error: GITHUB_TOKEN environment variable is not set!", file=sys.stderr)
-    print("Please ensure GITHUB_TOKEN is defined in .env or scripts/.env", file=sys.stderr)
-    print(f"Looked in:\n  - {os.path.join(PROJECT_ROOT, '.env')}\n  - {os.path.join(SCRIPT_DIR, '.env')}\n", file=sys.stderr)
-    sys.exit(1)
-
 API_URL = "https://api.github.com/graphql"
 
 QUERY = """
@@ -75,36 +70,68 @@ query($username: String!) {
 }
 """
 
-payload = json.dumps({
-    "query": QUERY,
-    "variables": {
-        "username": USERNAME
-    }
-}).encode("utf-8")
+def fetch_contributions_from_public(username):
+    """Scrape contributions from the public profile page without requiring any API token."""
+    url = f"https://github.com/users/{username}/contributions"
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    )
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        html = resp.read().decode("utf-8")
 
-request = urllib.request.Request(
-    API_URL,
-    data=payload,
-    headers={
-        "Authorization": f"Bearer {TOKEN}",
-        "Content-Type": "application/json",
-        "User-Agent": "github-activity-graph"
-    }
-)
+    pattern = r'data-date="([\d-]+)"[^>]*id="(contribution-day-component-[^"]+)"'
+    days = re.findall(pattern, html)
+    tooltips = dict(re.findall(r'for="(contribution-day-component-[^"]+)"[^>]*>([^<]+)</tool-tip>', html))
 
-with urllib.request.urlopen(request) as response:
-    result = json.loads(response.read())
+    results = []
+    for date, comp_id in days:
+        tip = tooltips.get(comp_id, "")
+        m = re.search(r'(\d+)\s+contribution', tip)
+        count = int(m.group(1)) if m else 0
+        results.append({"date": date, "contributionCount": count})
 
-if "errors" in result:
-    raise RuntimeError(json.dumps(result["errors"], indent=2))
+    results.sort(key=lambda x: x["date"])
+    return results
 
-calendar = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+def get_contribution_days(username, token):
+    """Fetch contribution days using GraphQL if token is valid, otherwise fallback to public calendar."""
+    if token:
+        try:
+            payload = json.dumps({
+                "query": QUERY,
+                "variables": {"username": username}
+            }).encode("utf-8")
 
-all_days = []
+            request = urllib.request.Request(
+                API_URL,
+                data=payload,
+                headers={
+                    "Authorization": f"Bearer {token}",
+                    "Content-Type": "application/json",
+                    "User-Agent": "github-activity-graph"
+                }
+            )
+            with urllib.request.urlopen(request, timeout=15) as response:
+                result = json.loads(response.read())
 
-for week in calendar["weeks"]:
-    for day in week["contributionDays"]:
-        all_days.append(day)
+            if "data" in result and result["data"].get("user"):
+                calendar = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+                all_days = []
+                for week in calendar["weeks"]:
+                    for day in week["contributionDays"]:
+                        all_days.append(day)
+                print("Fetched contribution data via GitHub GraphQL API.")
+                return all_days
+            else:
+                print("⚠️ GraphQL returned unexpected data or errors. Falling back to public profile...")
+        except Exception as e:
+            print(f"⚠️ GraphQL API request failed ({e}). Falling back to public profile...")
+
+    print("Fetching contribution data via GitHub public contributions profile...")
+    return fetch_contributions_from_public(username)
+
+all_days = get_contribution_days(USERNAME, TOKEN)
 
 # --------------------------------------------------
 # Use the most recent 31 days
