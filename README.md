@@ -21,14 +21,14 @@
 
 ---
 
-## 📌 About Me  
-- 💻 A **full stack developer** who loves building clean, modern websites and apps where design, functionality, and even the smallest details matter.
-- 🚀 Exploring AI-powered applications, scalable backend systems, and modern web architectures.
-- 🎓 2nd year B.Tech student actively contributing to open-source communities.
+## About Me  
+- A **full stack developer** who loves building clean, modern websites and apps where design, functionality, and even the smallest details matter.
+- Exploring AI-powered applications, scalable backend systems, and modern web architectures.
+- 2nd year B.Tech student actively contributing to open-source communities.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 | Project | Description | Tech Stack | Links |
 | :--- | :--- | :--- | :--- |
@@ -41,7 +41,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages & Frontend
 <p>
@@ -59,14 +59,14 @@
 </p>
 
 
-## 📚 Currently Learning
+## Currently Learning
 <p>
   <img src="https://skillicons.dev/icons?i=nextjs,redux,supabase,firebase,nginx,linux,prisma" />
 </p>
 
 ---
 
-## 📊 Contribution Graph
+## Contribution Graph
 
 <p align="center">
   <img src="./assets/activity-graph.svg" alt="Contribution Graph" />
@@ -74,7 +74,7 @@
 
 ---
 
-## ⚡ GitHub Stats & Streak
+## GitHub Stats & Streak
 
 <p align="center">
   <img src="./assets/streak-stats.svg" alt="GitHub Streak" width="49%" />
@@ -89,7 +89,7 @@
 
 ---
 
-## 🌐 Connect With Me  
+## Connect With Me  
 
 <p align="left">
   <a href="https://tusharworks.vercel.app/" target="_blank">
