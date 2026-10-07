@@ -1,0 +1,47 @@
+name: Update Stats & Graphs
+
+on:
+  schedule:
+    # Runs everyday at 00:00 UTC (05:30 IST)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from the Actions tab in GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update Streak Stats
+        run: python3 scripts/generate_streak_stats.py
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+
+      - name: Update Activity Graph
+        continue-on-error: true
+        run: python3 scripts/generate_activity_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No changes to commit in assets."
+          else
+            git commit -m "chore: auto-update streak stats and activity graph [skip ci]"
+            git push
+          fi
