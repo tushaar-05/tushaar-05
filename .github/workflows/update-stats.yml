@@ -34,14 +34,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
 
+      - name: Update Open Source Contributions Tracker
+        run: python3 scripts/generate_oss_tracker.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/
+          git add assets/ README.md
           if git diff --staged --quiet; then
-            echo "No changes to commit in assets."
+            echo "No changes to commit."
           else
-            git commit -m "chore: auto-update streak stats and activity graph [skip ci]"
+            git commit -m "chore: auto-update streak, activity graph & oss tracker [skip ci]"
             git push
           fi

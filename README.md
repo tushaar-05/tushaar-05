@@ -41,6 +41,28 @@
 
 ---
 
+<!-- OSS-TRACKER:START -->
+## 🌐 Open Source Contributions
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Total%20PRs-23-0C1117?style=for-the-badge&logo=git&logoColor=white" alt="Total PRs" />
+  <img src="https://img.shields.io/badge/Merged-3-8957e5?style=for-the-badge&logo=gitmerge&logoColor=white" alt="Merged PRs" />
+  <img src="https://img.shields.io/badge/Open-20-238636?style=for-the-badge&logo=gitpullrequest&logoColor=white" alt="Open PRs" />
+  <img src="https://img.shields.io/badge/In%20Review-11-d29922?style=for-the-badge&logo=github&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B2.2k%20/%20-1.0k&color=0969da&style=for-the-badge&logo=githubactions&logoColor=white" alt="Lines Contributed" />
+</p>
+
+| Organization / Repository | 🟢 Open | 🟡 Review Status | 🟣 Merged | Total PRs | 📝 Lines Contributed |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| [**CircuitVerse/cv-frontend-vue**](https://github.com/CircuitVerse/cv-frontend-vue) | [14](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 4 awaiting review<br>3 changes requested<br>7 approved | [1](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **15** | `+917 / -808`<br><sub>(1,725 total)</sub> |
+| [**accordproject/concerto**](https://github.com/accordproject/concerto) | [4](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 2 awaiting review<br>2 approved | [2](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **6** | `+1,237 / -139`<br><sub>(1,376 total)</sub> |
+| [**sugarlabs/musicblocks**](https://github.com/sugarlabs/musicblocks) | [1](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 1 awaiting review | - | **1** | `+32 / -1`<br><sub>(33 total)</sub> |
+| [**learningequality/kolibri**](https://github.com/learningequality/kolibri) | [1](https://github.com/learningequality/kolibri/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 1 changes requested | - | **1** | `+43 / -85`<br><sub>(128 total)</sub> |
+
+<!-- OSS-TRACKER:END -->
+
+---
+
 ## Tech Stack
 
 ### Languages & Frontend
