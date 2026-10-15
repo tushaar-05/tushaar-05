@@ -238,18 +238,18 @@ def generate_oss_markdown(username):
     lines.append("## 🌐 Open Source Contributions")
     lines.append("")
     lines.append("<p align=\"center\">")
-    lines.append(f"  <img src=\"https://img.shields.io/badge/Total%20PRs-{total_prs}-0C1117?style=for-the-badge&logo=git&logoColor=white\" alt=\"Total PRs\" />")
-    lines.append(f"  <img src=\"https://img.shields.io/badge/Merged-{total_merged}-8957e5?style=for-the-badge&logo=gitmerge&logoColor=white\" alt=\"Merged PRs\" />")
-    lines.append(f"  <img src=\"https://img.shields.io/badge/Open-{total_open}-238636?style=for-the-badge&logo=gitpullrequest&logoColor=white\" alt=\"Open PRs\" />")
-    lines.append(f"  <img src=\"https://img.shields.io/badge/In%20Review-{total_in_review}-d29922?style=for-the-badge&logo=github&logoColor=white\" alt=\"In Review\" />")
+    lines.append(f"  <img src=\"https://img.shields.io/static/v1?label=Total%20PRs&message={total_prs}&color=30363D&labelColor=0D1117&style=flat&logo=github&logoColor=C9D1D9\" alt=\"Total PRs\" />")
+    lines.append(f"  <img src=\"https://img.shields.io/static/v1?label=Merged&message={total_merged}&color=8957E5&labelColor=0D1117&style=flat&logo=git&logoColor=D2A8FF\" alt=\"Merged PRs\" />")
+    lines.append(f"  <img src=\"https://img.shields.io/static/v1?label=Open&message={total_open}&color=238636&labelColor=0D1117&style=flat&logo=github&logoColor=3FB950\" alt=\"Open PRs\" />")
+    lines.append(f"  <img src=\"https://img.shields.io/static/v1?label=In%20Review&message={total_in_review}&color=9E6A03&labelColor=0D1117&style=flat&logo=github&logoColor=F0883E\" alt=\"In Review\" />")
     
     # Safe static/v1 Shields endpoint with URL encoded parameters
     lines_label = urllib.parse.quote("Lines Contributed")
     lines_val = urllib.parse.quote(f"+{format_count(total_additions)} / -{format_count(total_deletions)}")
-    lines.append(f"  <img src=\"https://img.shields.io/static/v1?label={lines_label}&message={lines_val}&color=0969da&style=for-the-badge&logo=githubactions&logoColor=white\" alt=\"Lines Contributed\" />")
+    lines.append(f"  <img src=\"https://img.shields.io/static/v1?label={lines_label}&message={lines_val}&color=1F6FEB&labelColor=0D1117&style=flat&logo=githubactions&logoColor=58A6FF\" alt=\"Lines Contributed\" />")
     lines.append("</p>")
     lines.append("")
-    lines.append("| Organization / Repository | 🟢 Open | 🟡 Review Status | 🟣 Merged | Total PRs | 📝 Lines Contributed |")
+    lines.append("| Repository | Open | Review Status | Merged | Total | Lines Contributed |")
     lines.append("| :--- | :---: | :---: | :---: | :---: | :---: |")
 
     for repo, data in sorted_repos:
@@ -266,14 +266,14 @@ def generate_oss_markdown(username):
         open_cell = f"[{open_count}]({open_url})" if open_count > 0 else "-"
         merged_cell = f"[{merged_count}]({merged_url})" if merged_count > 0 else "-"
 
-        # Review status breakdown
+        # Review status breakdown with clean dot indicators
         status_parts = []
         if data["review_required"] > 0:
-            status_parts.append(f"{data['review_required']} awaiting review")
+            status_parts.append(f"• {data['review_required']} awaiting review")
         if data["changes_requested"] > 0:
-            status_parts.append(f"{data['changes_requested']} changes requested")
+            status_parts.append(f"• {data['changes_requested']} changes requested")
         if data["approved"] > 0:
-            status_parts.append(f"{data['approved']} approved")
+            status_parts.append(f"• {data['approved']} approved")
 
         review_cell = "<br>".join(status_parts) if status_parts else "-"
         lines_cell = f"`+{add:,} / -{rem:,}`<br><sub>({net_lines:,} total)</sub>"

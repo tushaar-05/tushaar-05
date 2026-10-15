@@ -45,19 +45,19 @@
 ## 🌐 Open Source Contributions
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20PRs-23-0C1117?style=for-the-badge&logo=git&logoColor=white" alt="Total PRs" />
-  <img src="https://img.shields.io/badge/Merged-3-8957e5?style=for-the-badge&logo=gitmerge&logoColor=white" alt="Merged PRs" />
-  <img src="https://img.shields.io/badge/Open-20-238636?style=for-the-badge&logo=gitpullrequest&logoColor=white" alt="Open PRs" />
-  <img src="https://img.shields.io/badge/In%20Review-11-d29922?style=for-the-badge&logo=github&logoColor=white" alt="In Review" />
-  <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B2.2k%20/%20-1.0k&color=0969da&style=for-the-badge&logo=githubactions&logoColor=white" alt="Lines Contributed" />
+  <img src="https://img.shields.io/static/v1?label=Total%20PRs&message=23&color=30363D&labelColor=0D1117&style=flat&logo=github&logoColor=C9D1D9" alt="Total PRs" />
+  <img src="https://img.shields.io/static/v1?label=Merged&message=3&color=8957E5&labelColor=0D1117&style=flat&logo=git&logoColor=D2A8FF" alt="Merged PRs" />
+  <img src="https://img.shields.io/static/v1?label=Open&message=20&color=238636&labelColor=0D1117&style=flat&logo=github&logoColor=3FB950" alt="Open PRs" />
+  <img src="https://img.shields.io/static/v1?label=In%20Review&message=11&color=9E6A03&labelColor=0D1117&style=flat&logo=github&logoColor=F0883E" alt="In Review" />
+  <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B2.2k%20/%20-1.0k&color=1F6FEB&labelColor=0D1117&style=flat&logo=githubactions&logoColor=58A6FF" alt="Lines Contributed" />
 </p>
 
-| Organization / Repository | 🟢 Open | 🟡 Review Status | 🟣 Merged | Total PRs | 📝 Lines Contributed |
+| Repository | Open | Review Status | Merged | Total | Lines Contributed |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [**CircuitVerse/cv-frontend-vue**](https://github.com/CircuitVerse/cv-frontend-vue) | [14](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 4 awaiting review<br>3 changes requested<br>7 approved | [1](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **15** | `+917 / -808`<br><sub>(1,725 total)</sub> |
-| [**accordproject/concerto**](https://github.com/accordproject/concerto) | [4](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 2 awaiting review<br>2 approved | [2](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **6** | `+1,237 / -139`<br><sub>(1,376 total)</sub> |
-| [**sugarlabs/musicblocks**](https://github.com/sugarlabs/musicblocks) | [1](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 1 awaiting review | - | **1** | `+32 / -1`<br><sub>(33 total)</sub> |
-| [**learningequality/kolibri**](https://github.com/learningequality/kolibri) | [1](https://github.com/learningequality/kolibri/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | 1 changes requested | - | **1** | `+43 / -85`<br><sub>(128 total)</sub> |
+| [**CircuitVerse/cv-frontend-vue**](https://github.com/CircuitVerse/cv-frontend-vue) | [14](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 4 awaiting review<br>• 3 changes requested<br>• 7 approved | [1](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **15** | `+917 / -808`<br><sub>(1,725 total)</sub> |
+| [**accordproject/concerto**](https://github.com/accordproject/concerto) | [4](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 2 awaiting review<br>• 2 approved | [2](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **6** | `+1,237 / -139`<br><sub>(1,376 total)</sub> |
+| [**sugarlabs/musicblocks**](https://github.com/sugarlabs/musicblocks) | [1](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 1 awaiting review | - | **1** | `+32 / -1`<br><sub>(33 total)</sub> |
+| [**learningequality/kolibri**](https://github.com/learningequality/kolibri) | [1](https://github.com/learningequality/kolibri/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 1 changes requested | - | **1** | `+43 / -85`<br><sub>(128 total)</sub> |
 
 <!-- OSS-TRACKER:END -->
 
@@ -106,7 +106,7 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tushaar-05&label=Profile%20Views&color=0C1117&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=tushaar-05&label=Profile%20Views&color=161B22&style=flat" alt="Profile Views" />
 </p>
 
 ---
@@ -115,19 +115,19 @@
 
 <p align="left">
   <a href="https://tusharworks.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0C1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/static/v1?label=&message=Portfolio&color=161B22&logo=googlechrome&logoColor=white&style=flat" alt="Portfolio" />
   </a>
   <a href="https://linkedin.com/in/tushar-singh05/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=161B22&logo=linkedin&logoColor=white&style=flat" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/tushaar_05/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+    <img src="https://img.shields.io/static/v1?label=&message=LeetCode&color=161B22&logo=leetcode&logoColor=white&style=flat" alt="LeetCode" />
   </a>
   <a href="mailto:tusharsingh222555@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/static/v1?label=&message=Email&color=161B22&logo=gmail&logoColor=white&style=flat" alt="Email" />
   </a>
   <a href="https://instagram.com/tushaar._.05" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/static/v1?label=&message=Instagram&color=161B22&logo=instagram&logoColor=white&style=flat" alt="Instagram" />
   </a>
 </p>
 
