@@ -115,19 +115,19 @@
 
 <p align="left">
   <a href="https://tusharworks.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=&message=Portfolio&color=161B22&logo=googlechrome&logoColor=white&style=flat" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-0969DA?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://linkedin.com/in/tushar-singh05/" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=161B22&logo=linkedin&logoColor=white&style=flat" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8+PC9zdmc+&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/tushaar_05/" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=&message=LeetCode&color=161B22&logo=leetcode&logoColor=white&style=flat" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
   <a href="mailto:tusharsingh222555@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=&message=Email&color=161B22&logo=gmail&logoColor=white&style=flat" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://instagram.com/tushaar._.05" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=&message=Instagram&color=161B22&logo=instagram&logoColor=white&style=flat" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
 
