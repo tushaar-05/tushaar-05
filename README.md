@@ -45,10 +45,10 @@
 ## 🌐 Open Source Contributions
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Total%20PRs&message=29&color=30363D&labelColor=0D1117&style=flat&logo=github&logoColor=C9D1D9" height="26" alt="Total PRs" />
+  <img src="https://img.shields.io/static/v1?label=Total%20PRs&message=30&color=30363D&labelColor=0D1117&style=flat&logo=github&logoColor=C9D1D9" height="26" alt="Total PRs" />
   <img src="https://img.shields.io/static/v1?label=Merged&message=9&color=8957E5&labelColor=0D1117&style=flat&logo=git&logoColor=D2A8FF" height="26" alt="Merged PRs" />
-  <img src="https://img.shields.io/static/v1?label=Open&message=20&color=238636&labelColor=0D1117&style=flat&logo=github&logoColor=3FB950" height="26" alt="Open PRs" />
-  <img src="https://img.shields.io/static/v1?label=In%20Review&message=10&color=9E6A03&labelColor=0D1117&style=flat&logo=github&logoColor=F0883E" height="26" alt="In Review" />
+  <img src="https://img.shields.io/static/v1?label=Open&message=21&color=238636&labelColor=0D1117&style=flat&logo=github&logoColor=3FB950" height="26" alt="Open PRs" />
+  <img src="https://img.shields.io/static/v1?label=In%20Review&message=11&color=9E6A03&labelColor=0D1117&style=flat&logo=github&logoColor=F0883E" height="26" alt="In Review" />
   <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B2.5k%20/%20-1.2k&color=1F6FEB&labelColor=0D1117&style=flat&logo=githubactions&logoColor=58A6FF" height="26" alt="Lines Contributed" />
 </p>
 
@@ -60,6 +60,7 @@
 | [**json-schema-org/JSON-Schema-Test-Suite**](https://github.com/json-schema-org/JSON-Schema-Test-Suite) | [2](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | - | - | **2** | `+180 / -0`<br><sub>(180 total)</sub> |
 | [**sugarlabs/musicblocks**](https://github.com/sugarlabs/musicblocks) | [1](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 1 awaiting review | [1](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+36 / -2`<br><sub>(38 total)</sub> |
 | [**nst-sdc/nst--events**](https://github.com/nst-sdc/nst--events) | - | - | [2](https://github.com/nst-sdc/nst--events/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+0 / -0`<br><sub>(0 total)</sub> |
+| [**oppia/oppia**](https://github.com/oppia/oppia) | [1](https://github.com/oppia/oppia/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 1 awaiting review | - | **1** | `+11 / -2`<br><sub>(13 total)</sub> |
 
 <!-- OSS-TRACKER:END -->
 
