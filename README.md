@@ -60,7 +60,7 @@
 | [**json-schema-org/JSON-Schema-Test-Suite**](https://github.com/json-schema-org/JSON-Schema-Test-Suite) | - | - | [2](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+165 / -0`<br><sub>(165 total)</sub> |
 | [**sugarlabs/musicblocks**](https://github.com/sugarlabs/musicblocks) | - | - | [2](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+51 / -16`<br><sub>(67 total)</sub> |
 | [**nst-sdc/nst--events**](https://github.com/nst-sdc/nst--events) | - | - | [2](https://github.com/nst-sdc/nst--events/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+0 / -0`<br><sub>(0 total)</sub> |
-| [**oppia/oppia**](https://github.com/oppia/oppia) | [1](https://github.com/oppia/oppia/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 1 changes requested | - | **1** | `+11 / -2`<br><sub>(13 total)</sub> |
+| [**oppia/oppia**](https://github.com/oppia/oppia) | [1](https://github.com/oppia/oppia/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 1 changes requested | - | **1** | `+10 / -6`<br><sub>(16 total)</sub> |
 
 <!-- OSS-TRACKER:END -->
 
