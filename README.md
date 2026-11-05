@@ -49,12 +49,12 @@
   <img src="https://img.shields.io/static/v1?label=Merged&message=16&color=8957E5&labelColor=0D1117&style=flat&logo=git&logoColor=D2A8FF" height="26" alt="Merged PRs" />
   <img src="https://img.shields.io/static/v1?label=Open&message=16&color=238636&labelColor=0D1117&style=flat&logo=github&logoColor=3FB950" height="26" alt="Open PRs" />
   <img src="https://img.shields.io/static/v1?label=In%20Review&message=9&color=9E6A03&labelColor=0D1117&style=flat&logo=github&logoColor=F0883E" height="26" alt="In Review" />
-  <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B2.8k%20/%20-1.5k&color=1F6FEB&labelColor=0D1117&style=flat&logo=githubactions&logoColor=58A6FF" height="26" alt="Lines Contributed" />
+  <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B3.2k%20/%20-2.0k&color=1F6FEB&labelColor=0D1117&style=flat&logo=githubactions&logoColor=58A6FF" height="26" alt="Lines Contributed" />
 </p>
 
 | Repository | Open | Review Status | Merged | Total | Lines Contributed |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [**CircuitVerse/cv-frontend-vue**](https://github.com/CircuitVerse/cv-frontend-vue) | [13](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 2 awaiting review<br>• 4 changes requested<br>• 7 approved | [3](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **16** | `+1,157 / -1,073`<br><sub>(2,230 total)</sub> |
+| [**CircuitVerse/cv-frontend-vue**](https://github.com/CircuitVerse/cv-frontend-vue) | [13](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 2 awaiting review<br>• 4 changes requested<br>• 7 approved | [3](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **16** | `+1,642 / -1,588`<br><sub>(3,230 total)</sub> |
 | [**accordproject/concerto**](https://github.com/accordproject/concerto) | [2](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 2 awaiting review | [4](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **6** | `+1,242 / -142`<br><sub>(1,384 total)</sub> |
 | [**learningequality/kolibri**](https://github.com/learningequality/kolibri) | - | - | [3](https://github.com/learningequality/kolibri/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **3** | `+139 / -217`<br><sub>(356 total)</sub> |
 | [**json-schema-org/JSON-Schema-Test-Suite**](https://github.com/json-schema-org/JSON-Schema-Test-Suite) | - | - | [2](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+165 / -0`<br><sub>(165 total)</sub> |
