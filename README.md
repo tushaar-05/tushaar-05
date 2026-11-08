@@ -46,22 +46,22 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Total%20PRs&message=33&color=30363D&labelColor=0D1117&style=flat&logo=github&logoColor=C9D1D9" height="26" alt="Total PRs" />
-  <img src="https://img.shields.io/static/v1?label=Merged&message=16&color=8957E5&labelColor=0D1117&style=flat&logo=git&logoColor=D2A8FF" height="26" alt="Merged PRs" />
-  <img src="https://img.shields.io/static/v1?label=Open&message=17&color=238636&labelColor=0D1117&style=flat&logo=github&logoColor=3FB950" height="26" alt="Open PRs" />
+  <img src="https://img.shields.io/static/v1?label=Merged&message=17&color=8957E5&labelColor=0D1117&style=flat&logo=git&logoColor=D2A8FF" height="26" alt="Merged PRs" />
+  <img src="https://img.shields.io/static/v1?label=Open&message=16&color=238636&labelColor=0D1117&style=flat&logo=github&logoColor=3FB950" height="26" alt="Open PRs" />
   <img src="https://img.shields.io/static/v1?label=In%20Review&message=9&color=9E6A03&labelColor=0D1117&style=flat&logo=github&logoColor=F0883E" height="26" alt="In Review" />
-  <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B14.4k%20/%20-2.5k&color=1F6FEB&labelColor=0D1117&style=flat&logo=githubactions&logoColor=58A6FF" height="26" alt="Lines Contributed" />
+  <img src="https://img.shields.io/static/v1?label=Lines%20Contributed&message=%2B14.3k%20/%20-2.3k&color=1F6FEB&labelColor=0D1117&style=flat&logo=githubactions&logoColor=58A6FF" height="26" alt="Lines Contributed" />
 </p>
 
 | Repository | Open | Review Status | Merged | Total | Lines Contributed |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | [**CircuitVerse/cv-frontend-vue**](https://github.com/CircuitVerse/cv-frontend-vue) | [13](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 2 awaiting review<br>• 4 changes requested<br>• 7 approved | [3](https://github.com/CircuitVerse/cv-frontend-vue/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **16** | `+1,642 / -1,588`<br><sub>(3,230 total)</sub> |
 | [**accordproject/concerto**](https://github.com/accordproject/concerto) | [2](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 2 awaiting review | [4](https://github.com/accordproject/concerto/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **6** | `+1,242 / -142`<br><sub>(1,384 total)</sub> |
-| [**learningequality/kolibri**](https://github.com/learningequality/kolibri) | - | - | [3](https://github.com/learningequality/kolibri/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **3** | `+139 / -217`<br><sub>(356 total)</sub> |
+| [**learningequality/kolibri**](https://github.com/learningequality/kolibri) | - | - | [3](https://github.com/learningequality/kolibri/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **3** | `+43 / -85`<br><sub>(128 total)</sub> |
 | [**json-schema-org/JSON-Schema-Test-Suite**](https://github.com/json-schema-org/JSON-Schema-Test-Suite) | - | - | [2](https://github.com/json-schema-org/JSON-Schema-Test-Suite/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+165 / -0`<br><sub>(165 total)</sub> |
 | [**sugarlabs/musicblocks**](https://github.com/sugarlabs/musicblocks) | - | - | [2](https://github.com/sugarlabs/musicblocks/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+51 / -16`<br><sub>(67 total)</sub> |
 | [**nst-sdc/nst--events**](https://github.com/nst-sdc/nst--events) | - | - | [2](https://github.com/nst-sdc/nst--events/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **2** | `+1,591 / -389`<br><sub>(1,980 total)</sub> |
-| [**anveshap103-tomato/ISD_Major**](https://github.com/anveshap103-tomato/ISD_Major) | [1](https://github.com/anveshap103-tomato/ISD_Major/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | - | - | **1** | `+9,589 / -101`<br><sub>(9,690 total)</sub> |
 | [**oppia/oppia**](https://github.com/oppia/oppia) | [1](https://github.com/oppia/oppia/pulls?q=is%3Apr+author%3Atushaar-05+is%3Aopen) | • 1 awaiting review | - | **1** | `+10 / -6`<br><sub>(16 total)</sub> |
+| [**anveshap103-tomato/ISD_Major**](https://github.com/anveshap103-tomato/ISD_Major) | - | - | [1](https://github.com/anveshap103-tomato/ISD_Major/pulls?q=is%3Apr+author%3Atushaar-05+is%3Amerged) | **1** | `+9,589 / -101`<br><sub>(9,690 total)</sub> |
 
 <!-- OSS-TRACKER:END -->
 
